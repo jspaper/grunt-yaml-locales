@@ -1,8 +1,8 @@
 {
   "name": "grunt-yaml-locales",
   "description": "YAML locales generator",
-  "version": "0.1.0",
-  "homepage": "https://github.com/changchaiyi/grunt-yaml-locales",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jspaper/grunt-yaml-locales",
   "author": {
     "name": "jspaper",
     "email": "jspaper.chang@gmail.com"
