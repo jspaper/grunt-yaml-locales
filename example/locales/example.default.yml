@@ -1,0 +1,13 @@
+default:
+  account:
+    actions:
+      sign_in: "Sign in"
+      sign_up: "Sign up"
+      sign_out: "Sign out"
+      sign_in_with_provider: "Sign in with %{provider}"
+      bind_provider: "Bind %{provider}"
+      unbind_provider: "Unbind %{provider}"
+    confirmations:
+      confirmed: "Your account was successfully confirmed. You are now signed in."
+      send_instructions: "A confirmation email has been sent to %{email}. Click on the confirmation link in the email to active your account."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."

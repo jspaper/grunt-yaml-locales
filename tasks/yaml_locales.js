@@ -16,8 +16,6 @@ module.exports = function (grunt) {
     // creation: http://gruntjs.com/creating-tasks
     grunt.registerMultiTask('locales', 'YAML locales generator', function () {
         var options = this.options({
-            punctuation: '.',
-            separator: ', ',
             srcDir: null,
             destDir: null
         });

@@ -1,0 +1,13 @@
+zh-TW:
+  account:
+    actions:
+      sign_in: "登入"
+      sign_up: "註冊"
+      sign_out: "登出"
+      sign_in_with_provider: "Sign in with %{provider}"
+      bind_provider: "綁定 %{provider}"
+      unbind_provider: "解除綁定 %{provider}"
+    confirmations:
+      confirmed: '您的帳號已經過確認，現在您已成功登入。'
+      send_instructions: "驗證信己傳送到 %{email} ，請點擊驗證信內的連結，進入你的Picowork。"
+      send_paranoid_instructions: '如果我們有您的電子信箱，您將會收到一封確認您的帳號的電子郵件。'

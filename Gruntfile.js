@@ -34,8 +34,8 @@ module.exports = function (grunt) {
             },
             custom_options: {
                 options: {
-                    separator: ': ',
-                    punctuation: ' !!!'
+                    srcDir: 'example/locales',
+                    destDir: 'tmp/locales'
                 },
                 files: {
                     'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
@@ -57,6 +57,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-nodeunit');
+    grunt.loadNpmTasks('grunt-yaml-locales');
 
     // Whenever the "test" task is run, first clean the "tmp" dir, then run this
     // plugin's task(s), then test the result.
